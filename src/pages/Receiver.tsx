@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Reciever() {
+function Receiver() {
   return (
     <div>
       Reciever
@@ -8,4 +8,4 @@ function Reciever() {
   )
 }
 
-export default Reciever
+export default Receiver

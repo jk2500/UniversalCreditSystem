@@ -19,7 +19,7 @@ function Home() {
       <nav>
         <Link to="/issuer">Issuer  </Link>
         <Link to="/verifier">Verifier  </Link>
-        <Link to="/reciever">Reciever</Link>
+        <Link to="/reciever">Receiver</Link>
       </nav>
       <header className="App-header">
         <pre id="result">{didDoc && JSON.stringify(didDoc, null, 2)}</pre>
