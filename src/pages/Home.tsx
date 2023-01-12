@@ -16,14 +16,12 @@ function Home() {
   }, [])
   return (
     <div>
+      <p>Hello</p>
       <nav>
         <Link to="/issuer">Issuer  </Link>
         <Link to="/verifier">Verifier  </Link>
         <Link to="/reciever">Receiver</Link>
       </nav>
-      <header className="App-header">
-        <pre id="result">{didDoc && JSON.stringify(didDoc, null, 2)}</pre>
-      </header>
     </div>
   )
 }
